@@ -65,5 +65,7 @@ FC: A0A1A2A3
 At the same time, if `scanf` was taking 20 bytes as string and writing it to
 the stack start at address EC, the input provided should look as follows:
 
-`44332211` `A7A6A5A4` `ABAAA9A8` `AFAEADAC` `A3A2A0A1`
+`44332211` `A7A6A5A4` `ABAAA9A8` `AFAEADAC` `A3A2A1A0`
+
+in order to make the final stack state look as the one above.
 
